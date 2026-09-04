@@ -23,7 +23,7 @@ import numpy as np
 import pandas as pd
 
 
-from entropy_metrics import BMSE, CalcMSE, default_n_jobs
+from entropy_metrics import BMSE, MSE, default_n_jobs
 
 
 class InputError(RuntimeError):
@@ -317,8 +317,8 @@ def process_run(run: Run, masks: Sequence[Mask], common_warnings: Sequence[str],
     temp_path = Path(tempfile.mkdtemp(prefix=f".{run.parts[-1]}.tmp-",
                                      dir=temp_parent))
     try:
-        CalcMSE(run.subject, timeseries, str(temp_path) + os.sep,
-                m=args.m, r=args.mse_r, scales=args.a, n_jobs=jobs).process()
+        MSE(run.subject, timeseries, str(temp_path) + os.sep,
+            m=args.m, r=args.mse_r, scales=args.a, n_jobs=jobs).process()
         BMSE(m=args.m, r=args.bmse_r, a=args.a, n_jobs=jobs).process_data(
             timeseries, str(temp_path / "bmse")
         )

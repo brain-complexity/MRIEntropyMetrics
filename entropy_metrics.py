@@ -39,7 +39,7 @@ def _mse_one(series: np.ndarray, m: int, r: float,
     return np.asarray(result)
 
 
-class CalcMSE:
+class MSE:
     """Univariate multiscale sample entropy for each DataFrame column."""
 
     def __init__(self, subject_id: str, timeseries: pd.DataFrame, output: str,
