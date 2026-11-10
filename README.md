@@ -180,13 +180,21 @@ output is incomplete or incompatible, the tool stops unless `--force` is used.
 
 ## Citation
 
-If you use MRIEntropyMetrics in research, cite the software repository and the
-methods/software underlying your analysis, including EntropyHub. Add a
-`CITATION.cff` file with the correct authors, title, version, DOI, and release
-date before publishing an archival release.
+If you use MRIEntropyMetrics in research, please cite this software repository
+and the methods/software underlying your analysis.
+
+The entropy calculations use [EntropyHub](https://github.com/MattWillFlood/EntropyHub).
+Please also cite its methods paper:
+
+Flood, M. W., & Grimm, B. (2021). EntropyHub: An open-source toolkit for
+entropic time series analysis. *PLOS ONE*, 16(11), e0259448.
+[https://doi.org/10.1371/journal.pone.0259448](https://doi.org/10.1371/journal.pone.0259448)
 
 ## License
 
-No software license has been selected yet. Before making the repository public,
-the copyright holder should add an appropriate `LICENSE` file (for example,
-MIT, BSD-3-Clause, or GPL-3.0) after making that legal/project-policy decision.
+MRIEntropyMetrics is licensed under the [MIT License](LICENSE).
+
+EntropyHub is a separate dependency licensed under
+[Apache-2.0](https://github.com/MattWillFlood/EntropyHub/blob/main/LICENSE).
+The MIT License for MRIEntropyMetrics does not replace the licenses of its
+dependencies.
