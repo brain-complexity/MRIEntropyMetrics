@@ -180,8 +180,12 @@ output is incomplete or incompatible, the tool stops unless `--force` is used.
 
 ## Citation
 
-If you use MRIEntropyMetrics in research, please cite this software repository
-and the methods/software underlying your analysis.
+If you use MRIEntropyMetrics in research, please cite the following publication
+alongside this software repository and the methods/software underlying your
+analysis:
+
+[medRxiv preprint, version 1](https://www.medrxiv.org/content/10.64898/2026.11.12.26367710v1).
+DOI: [10.64898/2026.11.12.26367710](https://doi.org/10.64898/2026.11.12.26367710).
 
 The entropy calculations use [EntropyHub](https://github.com/MattWillFlood/EntropyHub).
 Please also cite its methods paper:
