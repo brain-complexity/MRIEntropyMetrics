@@ -184,7 +184,12 @@ If you use MRIEntropyMetrics in research, please cite the following publication
 alongside this software repository and the methods/software underlying your
 analysis:
 
-[medRxiv preprint, version 1](https://www.medrxiv.org/content/10.64898/2026.11.12.26367710v1).
+Denier, N., Grieder, M., Jann, K., Borel, P., Dendorfer, S., Florineth, G. A.,
+Adorjan, K., Federspiel, A., Wiest, R., Soravia, L. M., Walther, S., & Bracht, T.
+(2026). Bivariate Multiscale Sample Entropy of Frontoparietal-Subgenual ACC
+Dynamics in Depression During Accelerated TMS at 7 T.
+*[medRxiv preprint, version 1](https://www.medrxiv.org/content/10.64898/2026.11.12.26367710v1)*,
+posted November 13, 2026.
 DOI: [10.64898/2026.11.12.26367710](https://doi.org/10.64898/2026.11.12.26367710).
 
 The entropy calculations use [EntropyHub](https://github.com/MattWillFlood/EntropyHub).
